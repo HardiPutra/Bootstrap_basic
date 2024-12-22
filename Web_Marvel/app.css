@@ -1,3 +1,26 @@
 body {
   font-family: "Roboto Condensed", serif;
 }
+
+.navbar {
+  background-color: #202020;
+  padding: 0;
+}
+
+.navbar-nav li {
+  padding: 0 10px 0 10px;
+}
+
+.navbar-nav a {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(255, 240, 249);
+}
+
+.navbar-nav:nth-child(1) a:nth-child(2) {
+  padding: 0;
+}
+
+.nav-link img {
+  width: 130px;
+}
